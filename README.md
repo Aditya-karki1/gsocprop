@@ -77,6 +77,8 @@ globals.R
         └── \Sexpr[stage=render]  ──► computed every time ?submit_proposal runs
                                       shown as: "The deadline is in X days."
 ```
+<img width="2512" height="1830" alt="image" src="https://github.com/user-attachments/assets/aeb35502-2449-40c0-a3ee-3d8c445077cf" />
+
 
 ## GSoC Project
 
