@@ -11,10 +11,14 @@ submit_proposal()
 \code{FALSE} otherwise.
 }
 \description{
-Checks if you can still submit your GSoC proposal.
-The deadline is stored in \code{gsoc_env$deadline}.
+This function checks if you can still submit your GSoC proposal.
+}
+\details{
+The submission deadline is fetched dynamically at install time:
+\strong{\Sexpr[stage=install, results=text]{as.character(gsocprop:::gsoc_env$deadline)}}.
+
+\emph{\Sexpr[stage=render, results=text]{gsocprop:::get_status_message()}}
 }
 \examples{
 submit_proposal()
-
 }
